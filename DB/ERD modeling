@@ -1,4 +1,4 @@
-
+<Json data example>
 const(ructor) moon = [{} {} {}]
 [
   {
@@ -19,3 +19,12 @@ in Jscript
 moon[0].family -> 웰시코기
 
 개시판의 경우, subject, name, date, comment[{},{},{}]
+
+학사관리시스템구축 데이터 모델링: n vs. n인 경우는 무조건 mapping table 만들어라
+누가 중심이 되는지 확인하는 것이 중요!
+과목과 학생은 n-n 매핑테이블 필요
+교수와 과목이 n-n 매핑테이블 필요
+
+primary key: not null
+
+
